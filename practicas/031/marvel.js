@@ -1,6 +1,6 @@
 const URL_API_MARVEL = "https://gateway.marvel.com:443/v1/public/";
-const KEY_PUBLICA = 'fc2bcb9f675a945eef10524572a4581f';
-const KEY_PRIVADA = '06e7d1f1f50e3530e8e5acc6ae398d2bd30e6d15';
+const KEY_PUBLICA = '';
+const KEY_PRIVADA = '';
 let marcaTiempo = '';
 let parametros = '';
 let html = '';
@@ -87,7 +87,7 @@ function pintarDatos()
                     html += '<p class="card-text"><small class="text-muted">';
                     html += objetoPersonaje.comics.available + ' Comic(s) disponible(s).<br />';
                     html += objetoPersonaje.series.available + ' Series(s) disponible(s).<br />';
-                    html += objetoPersonaje.stories.available + ' Historias(s) disponible(s).<br />';
+                    html += objetoPersonaje.stories.available + ' Historia(s) disponible(s).<br />';
                     html += objetoPersonaje.events.available + ' Evento(s) disponible(s).';
                     html += '</small></p>';
                     html += '</div>';
